@@ -1,4 +1,8 @@
 print("hola mundo")
 
 for i in range(1, 11):
-    print(i)
+    print(f"Tabla del {i}\n")
+    for j in range(1, 11):
+        print(f"{i}x{j} = {i*j}")
+    
+    print("")
